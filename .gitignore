@@ -1,0 +1,35 @@
+# Scala & sbt build outputs
+target/
+project/target/
+project/project/
+
+# Scala CLI output & cache
+.scala-build/
+.bsp/
+
+# Metals (Language Server / VSCodium integration)
+.metals/
+.bloop/
+
+# IntelliJ / IDE project settings
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VSCodium / VS Code specific files
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# sbt boot & local caches
+lib_managed/
+src_managed/
+sbt-launch.jar
+*.boot.properties
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
